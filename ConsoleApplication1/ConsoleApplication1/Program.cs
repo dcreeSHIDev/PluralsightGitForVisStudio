@@ -20,6 +20,8 @@ namespace ConsoleApplication1
             {
                 Console.WriteLine("Du hast kein args.");
             }
+
+            //Verpflichten und drücken
         }
 
         //es ist nicht Regen...
