@@ -12,9 +12,19 @@ namespace ConsoleApplication1
         {
             //Ein Änder nummer eins nach Repo machen. 
             //Ein mal Änder vor schieben. 
+            if (args != null)
+            {
+                Console.WriteLine("Die zuerst args ist: {0}", args[0].ToString());
+            }
+            else
+            {
+                Console.WriteLine("Du hast kein args.");
+            }
         }
 
         //es ist nicht Regen...
         //es ist etwas anderes
+
+
     }
 }
